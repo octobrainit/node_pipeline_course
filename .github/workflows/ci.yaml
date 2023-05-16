@@ -1,9 +1,6 @@
 name: ci-node-pipeline-test
 run-name: executed when pushed on develop
-on:
-  push:
-    branches:
-      - "develop"
+on: [push]
 jobs:
   get-codebase:
     runs-on: ubuntu-latest
