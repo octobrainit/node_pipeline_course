@@ -4,7 +4,7 @@
   "description": "",
   "main": "calculator.test.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage --collectCoverageFrom=src/*.js"
   },
   "author": "",
   "license": "ISC",
